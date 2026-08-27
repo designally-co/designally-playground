@@ -1,0 +1,29 @@
+{
+  "name": "@designally/studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev --port 3333",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sanity/vision": "6.10.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sanity": "6.10.1",
+    "styled-components": "6.5.3"
+  },
+  "devDependencies": {
+    "@designally/eslint-config": "workspace:*",
+    "@designally/typescript-config": "workspace:*",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "eslint": "9.39.1",
+    "typescript": "5.9.2"
+  }
+}
